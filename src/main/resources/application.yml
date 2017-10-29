@@ -1,0 +1,13 @@
+version: v1.0.0
+
+spring:
+  jpa:
+    database: postgresql
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 123456
